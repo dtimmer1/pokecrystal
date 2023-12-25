@@ -1181,28 +1181,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, TEDDIURSA
-	db 4, ZUBAT
+	db 6, GEODUDE
+	db 5, ZUBAT
+	db 6, CLEFFA
+	db 5, GEODUDE
+	db 6, TEDDIURSA
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	; day
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 6, GEODUDE
+	db 5, ZUBAT
+	db 6, CLEFFA
+	db 5, GEODUDE
+	db 6, TEDDIURSA
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	; nite
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 6, GEODUDE
+	db 5, ZUBAT
+	db 6, CLEFFA
+	db 5, GEODUDE
+	db 6, GASTLY
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	end_grass_wildmons
 
@@ -1267,25 +1267,25 @@ JohtoGrassWildMons:
 	; morn
 	db 3, LEDYBA
 	db 3, CATERPIE
-	db 4, CATERPIE
+	db 4, WEEDLE
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, PICHU
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; day
-	db 3, PIDGEY
+	db 3, IGGLYBUFF
 	db 3, CATERPIE
-	db 4, CATERPIE
+	db 4, WEEDLE
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, PICHU
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; nite
 	db 3, SPINARAK
-	db 3, HOOTHOOT
+	db 3, CLEFFA
 	db 4, POLIWAG
-	db 4, HOOTHOOT
-	db 3, ZUBAT
+	db 4, ZUBAT
+	db 3, PICHU
 	db 4, HOOTHOOT
 	db 4, HOOTHOOT
 	end_grass_wildmons
@@ -1293,29 +1293,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
-	db 4, CATERPIE
+	db 6, LEDYBA
+	db 5, CATERPIE
 	db 5, BELLSPROUT
-	db 5, PIDGEY
-	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 6, PIDGEY
+	db 5, POLIWAG
+	db 5, SUNKERN
+	db 7, SUNKERN
 	; day
-	db 4, PIDGEY
-	db 4, CATERPIE
+	db 6, LEDYBA
+	db 6, SPINARAK
 	db 5, BELLSPROUT
-	db 5, PIDGEY
-	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 6, PIDGEY
+	db 5, POLIWAG
+	db 5, SUNKERN
+	db 7, SUNKERN
 	; nite
-	db 4, SPINARAK
-	db 4, POLIWAG
+	db 6, SPINARAK
+	db 5, POLIWAG
 	db 5, BELLSPROUT
-	db 5, HOOTHOOT
-	db 4, ZUBAT
+	db 5, CLEFFA
+	db 6, ZUBAT
 	db 5, GASTLY
-	db 5, GASTLY
+	db 7, GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
@@ -1662,24 +1662,24 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, TYROGUE
+	db 2, TYROGUE
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, PHANPY
+	db 2, TYROGUE
+	db 2, TYROGUE
 	; nite
 	db 2, GEODUDE
-	db 2, RATTATA
+	db 2, HOOTHOOT
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, CLEFFA
+	db 2, TYROGUE
+	db 2, TYROGUE
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
